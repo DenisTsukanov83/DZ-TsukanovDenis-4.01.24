@@ -1,0 +1,18 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 950px;
+    margin: auto;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+button {
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
